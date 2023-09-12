@@ -7,7 +7,7 @@ public class Ex017 {
         System.out.print("Digite um número: ");
         numero = num.nextInt();
         System.out.println("O número digitado foi: " + numero);
-        System.out.println("O quadrado desse número é: " + (numero * numero));
+        System.out.println("O quadrado desse número é: " + (Math.pow(numero, 2)));
         System.out.println("A raiz quadrada desse número é: " + (Math.sqrt(numero)));
     }
 }
